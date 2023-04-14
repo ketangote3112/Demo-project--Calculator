@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+}
+.container{
+    flex-direction: column;
+    margin: 10px 0;
+}
+section{
+    width: 450px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.flex-right{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.text-right{
+    text-align: right;
+}
+.expression{
+    width: 400px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: right;
+    border: 1px solid rgb(59, 59, 59);
+}
+.button{
+    padding: 10px;
+    margin: 5px;
+    width: 95px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button:hover{
+   background-color: green;
+}
+.message{
+    display: none;
+    font-size: 16px;
+    color: red;
+}
+.flex-last{
+    flex: 0 2 2;
+}
+#zero,
+#clear{
+    flex: 2 1 auto;
+}
