@@ -42,12 +42,12 @@ section{
 }
 
 .button:hover{
-   background-color: gray;
+   background-color: rgb(171, 219, 237);
 }
 .message{
     display: none;
     font-size: 16px;
-    color: red;
+    color: pink;
 }
 .flex-last{
     flex: 0 2 2;
