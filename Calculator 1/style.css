@@ -42,7 +42,7 @@ section{
 }
 
 .button:hover{
-   background-color: skyblue;
+   background-color: gray;
 }
 .message{
     display: none;
